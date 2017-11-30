@@ -5,9 +5,6 @@ machine:
 dependencies:
   override:
     - yarn install --dev
-  post:
-    - rm -r ~/.gradle
-  
 
 # database:
 #   override:
