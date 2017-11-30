@@ -15,9 +15,13 @@ test:
     - yarn run test
     
 deployment:
-  staging:
+  production:
     branch: master
     commands:
-      - yarn deploy    
+      - yarn deploy
+  staging:
+    branch: staging
+    commands:
+      - yarn deploy
     
     
