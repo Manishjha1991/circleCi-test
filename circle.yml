@@ -14,4 +14,14 @@ test:
   override:
     - yarn run test
     
+deployment:
+  production:
+    branch: master
+    commands:
+      - yarn deploy
+  staging:
+    branch: staging
+    commands:
+      - yarn deploy
+    
     
